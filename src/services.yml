@@ -1,0 +1,6 @@
+services:
+    # Build Bitstamp exchanges
+    kryptopus_bitstamp_exchange_builder:
+        class: "domain/BitstampExchangeBuilder"
+        tags:
+            - { name: kryptopus.exchange_builder, builder_id: bitstamp }
