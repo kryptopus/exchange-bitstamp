@@ -1,0 +1,2 @@
+# exchange-bitstamp
+Bitstamp exchange
